@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PeliculasAPI_Udemy.props" />
+</Project>
