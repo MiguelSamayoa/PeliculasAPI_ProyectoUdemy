@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace PeliculasAPI_ProyectoUdemy
+namespace PeliculasAPI_Udemy
 {
     public class Startup
     {
@@ -17,6 +17,7 @@ namespace PeliculasAPI_ProyectoUdemy
 
             services.AddControllers();
             services.AddEndpointsApiExplorer();
+            services.AddAutoMapper(typeof(Startup));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

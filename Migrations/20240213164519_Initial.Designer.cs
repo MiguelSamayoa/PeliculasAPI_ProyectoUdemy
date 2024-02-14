@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PeliculasAPI_ProyectoUdemy;
+using PeliculasAPI_Udemy;
 
 #nullable disable
 
-namespace PeliculasAPI_ProyectoUdemy.Migrations
+namespace PeliculasAPI_Udemy.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240213164519_Initial")]

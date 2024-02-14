@@ -1,4 +1,4 @@
-using PeliculasAPI_ProyectoUdemy;
+using PeliculasAPI_Udemy;
 
 var builder = WebApplication.CreateBuilder(args);
 

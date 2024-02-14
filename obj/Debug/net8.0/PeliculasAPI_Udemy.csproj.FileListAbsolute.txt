@@ -129,3 +129,6 @@ C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\obj\Debug\net8.0\refint\PeliculasA
 C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\obj\Debug\net8.0\PeliculasAPI_Udemy.pdb
 C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\obj\Debug\net8.0\PeliculasAPI_Udemy.genruntimeconfig.cache
 C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\obj\Debug\net8.0\ref\PeliculasAPI_Udemy.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\obj\Debug\net8.0\PeliculasAPI_Udemy.sourcelink.json

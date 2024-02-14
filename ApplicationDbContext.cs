@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PeliculasAPI_ProyectoUdemy.Entidades;
+using PeliculasAPI_Udemy.Entidades;
 
-namespace PeliculasAPI_ProyectoUdemy
+namespace PeliculasAPI_Udemy
 {
     public class ApplicationDbContext: DbContext
     {
@@ -13,5 +13,6 @@ namespace PeliculasAPI_ProyectoUdemy
         }
 
         public DbSet<Genero> Generos { get; set;}
+        public DbSet<Actor> Actores { get; set; }
     }
 }
