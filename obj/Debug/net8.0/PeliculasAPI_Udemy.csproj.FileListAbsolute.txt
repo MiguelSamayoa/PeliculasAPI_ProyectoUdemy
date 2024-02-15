@@ -132,3 +132,10 @@ C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\obj\Debug\net8.0\ref\PeliculasAPI_
 C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\obj\Debug\net8.0\PeliculasAPI_Udemy.sourcelink.json
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\Azure.Storage.Common.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\SAMAYOA\Documents\PeliculasAPI_Udemy\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

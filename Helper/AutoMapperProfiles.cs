@@ -2,9 +2,9 @@
 using PeliculasAPI_Udemy.DTOs;
 using PeliculasAPI_Udemy.Entidades;
 
-namespace PeliculasAPI_Udemy
+namespace PeliculasAPI_Udemy.Helper
 {
-    public class AutoMapperProfiles:Profile
+    public class AutoMapperProfiles : Profile
     {
         public AutoMapperProfiles()
         {
@@ -12,7 +12,8 @@ namespace PeliculasAPI_Udemy
             CreateMap<GeneroCreacionDTO, Genero>();
 
             CreateMap<Actor, ActorDTO>().ReverseMap();
-            CreateMap<ActorCreacionDTO, Actor>();
+            CreateMap<ActorCreacionDTO, Actor>().ForMember(x => x.Foto, options => options.Ignore());
+            CreateMap<ActorPatchDTO, Actor>().ReverseMap();
         }
     }
 }

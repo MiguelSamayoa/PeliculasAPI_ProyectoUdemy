@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PeliculasAPI_Udemy.Services;
 
 namespace PeliculasAPI_Udemy
 {
@@ -15,9 +16,10 @@ namespace PeliculasAPI_Udemy
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
             services.AddEndpointsApiExplorer();
             services.AddAutoMapper(typeof(Startup));
+            services.AddTransient<IFileStorage, FileStorageServices>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

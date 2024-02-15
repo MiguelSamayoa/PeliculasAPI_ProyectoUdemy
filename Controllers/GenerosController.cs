@@ -46,7 +46,7 @@ namespace PeliculasAPI_Udemy.Controllers
         {
             Genero genero = mapper.Map<Genero>(generoCreacionDTO);
             _context.Add(genero);
-            await _context.SaveChangesAsync();
+            //await _context.SaveChangesAsync();
 
             GeneroDTO generoDTO = mapper.Map<GeneroDTO>(genero);
             return new CreatedAtRouteResult("ObtenerGenero", new { id = generoDTO.Id }, generoDTO);
