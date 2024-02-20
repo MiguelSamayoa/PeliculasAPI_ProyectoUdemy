@@ -1,6 +1,0 @@
-@PeliculasAPI_Udemy_HostAddress = http://localhost:5135
-
-GET {{PeliculasAPI_Udemy_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
